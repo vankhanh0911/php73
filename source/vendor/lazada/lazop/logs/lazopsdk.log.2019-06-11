@@ -1,0 +1,1 @@
+2019-06-11 17:40:31^_^109663^_^10.199.0.8^_^Linux^_^lazop-sdk-php-20180422^_^https://auth.lazada.com/rest/auth/token/refresh?app_key=109663&sign_method=sha256&timestamp=1560249631000&partner_id=lazop-sdk-php-20180422&sign=F5B6A97A4A41C8A470B72BE86EF97DF71CA55D8D3D34F52EFCEEBAA0057308E7^_^IllegalRefreshToken^_^The specified refresh token is invalid or expired
