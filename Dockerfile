@@ -1,6 +1,6 @@
 FROM php:7.3.20-fpm
 COPY source/composer.json /build/phpADSV7/lib/php/ZendFramework/2.2.5/zf2/
-COPY source/etc /build/phpADSV7/
+COPY source/etc /build/phpADSV7/etc/
 COPY source/php.ini /usr/local/etc/php/
 RUN apt-get update \
     && apt-get install -qy libxml2-dev unzip libaio1 libfreetype6-dev libjpeg62-turbo-dev libmcrypt-dev libmagickwand-dev libgearman-dev locales libzip-dev librdkafka-dev libicu-dev zlib1g-dev libpq-dev git libcurl4-openssl-dev vim netcat postgresql python-setuptools libpng-dev libjpeg-dev \
