@@ -42,4 +42,5 @@ RUN echo "extension=oci8.so" > /usr/local/etc/php/conf.d/php-oci8.ini
 RUN cd /build/phpADSV7/lib/php/ZendFramework/2.2.5/zf2/ && composer install
 COPY source/vendor/ /build/phpADSV7/lib/php/ZendFramework/2.2.5/zf2/vendor/
 COPY source/ParameterContainer.php /build/phpADSV7/lib/php/ZendFramework/2.2.5/zf2/vendor/zendframework/zend-db/src/Adapter/
+COPY source/Statement.php /build/phpADSV7/lib/php/ZendFramework/2.2.5/zf2/vendor/zendframework/zend-db/src/Adapter/Driver/Oci8/
 RUN cd /build/phpADSV7/lib/php/ZendFramework/2.2.5/zf2/ && composer dump-autoload
